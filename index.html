@@ -56,7 +56,7 @@
           </button>
           <div
             class="collapse navbar-collapse justify-content-center"
-            id="navbarScroll"> 
+            id="navbarScroll">
             <ul class="navbar-nav header__menu">
               <li class="nav-item header__item">
                 <a
@@ -82,17 +82,17 @@
                   aria-expanded="false">
                   Link
                 </a>
-                <ul class="dropdown-menu header__dropdown-menu"> 
+                <ul class="dropdown-menu header__dropdown-menu">
                   <li>
                     <a
-                      class="dropdown-item header__dropdown-item" 
+                      class="dropdown-item header__dropdown-item"
                       href="#"
                       >Action</a
                     >
                   </li>
                   <li>
                     <a
-                      class="dropdown-item header__dropdown-item" 
+                      class="dropdown-item header__dropdown-item"
                       href="#"
                       >Another action</a
                     >
@@ -100,7 +100,7 @@
                   <li><hr class="dropdown-divider" /></li>
                   <li>
                     <a
-                      class="dropdown-item header__dropdown-item" 
+                      class="dropdown-item header__dropdown-item"
                       href="#"
                       >Something else here</a
                     >
@@ -128,59 +128,58 @@
     </header>
 
     <!-- hack ========== MAIN ========== -->
-    <main class="container-fluid px-5 py-5 bg-body-tertiary">
-      <!-- idea == Card Template == -->
+    <main class="clima">
       <template id="clima-plantilla">
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="card border-info shadow h-100">
-            <!-- City Header -->
-            <div
-              class="clima-ciudad card-header border-info-subtle text-bg-dark align-items-center text-center"></div>
-            <div class="row g-0">
-              <!-- Image -->
-              <div class="col-4 col-md-4 d-flex mx-auto p-2">
+        <div class="col-12 col-md-6 col-lg-3 clima__col">
+          <article class="card clima__card h-100">
+            <!-- Ciudad -->
+            <header class="card-header clima__ciudad text-center"></header>
+
+            <div class="row g-0 clima__contenido">
+              <!-- Icono -->
+              <div class="col-4 d-flex mx-auto clima__icono-container">
                 <img
                   src=""
-                  class="img-fluid clima-icono"
+                  class="img-fluid clima__icono"
                   alt="icono clima" />
               </div>
 
+              <!-- Datos -->
               <div class="col-md-8">
-                <div class="card-body d-flex flex-column">
-                  <!-- Description -->
-                  <p class="card-text clima-descripcion mb-2"></p>
+                <div class="card-body d-flex flex-column clima__body">
+                  <p class="card-text clima__descripcion mb-2"></p>
 
-                  <!-- Climate data -->
-                  <ul class="list-group list-group-flush">
+                  <ul class="list-group list-group-flush clima__lista">
                     <li
                       class="list-group-item d-flex justify-content-between align-items-center">
                       Temp
-                      <span class="badge bg-primary rounded-pill">
-                        <span class="clima-temperatura"></span>°C
+                      <span class="badge clima__badge clima__badge--temp rounded-pill">
+                        <span class="clima__temperatura"></span>°C
                       </span>
                     </li>
 
                     <li
                       class="list-group-item d-flex justify-content-between align-items-center">
                       Sensación
-                      <span class="badge bg-warning text-dark rounded-pill">
-                        <span class="clima-sensacion"></span>°C
+                      <span
+                        class="badge clima__badge clima__badge--sensacion rounded-pill">
+                        <span class="clima__sensacion"></span>°C
                       </span>
                     </li>
 
                     <li
                       class="list-group-item d-flex justify-content-between align-items-center">
                       Humedad
-                      <span class="badge bg-info rounded-pill">
-                        <span class="clima-humedad"></span>%
+                      <span class="badge clima__badge clima__badge--humedad rounded-pill">
+                        <span class="clima__humedad"></span>%
                       </span>
                     </li>
 
                     <li
                       class="list-group-item d-flex justify-content-between align-items-center">
                       Viento
-                      <span class="badge bg-secondary rounded-pill">
-                        <span class="clima-viento"></span> km/h
+                      <span class="badge clima__badge clima__badge--viento rounded-pill">
+                        <span class="clima__viento"></span> km/h
                       </span>
                     </li>
                   </ul>
@@ -188,29 +187,29 @@
               </div>
             </div>
 
-            <!-- action button -->
+            <!-- Botón -->
             <div class="card-body pt-0 text-center">
               <button
-                class="btn btn-outline-primary btn-sm px-5 ver-detalle"
+                class="btn btn-outline-primary btn-sm clima__boton ver-detalle"
                 data-ciudad="">
                 Ver detalle
               </button>
             </div>
 
-            <!-- Date -->
-            <div class="card-footer border mt-auto text-center">
-              <small class="text-body-secondary"
-                >Actualizado: <span class="clima-actualizado"></span
-              ></small>
-            </div>
-          </div>
+            <!-- Footer -->
+            <footer class="card-footer text-center clima__footer">
+              <small>
+                Actualizado:
+                <span class="clima__actualizado"></span>
+              </small>
+            </footer>
+          </article>
         </div>
       </template>
 
-      <!-- idea == Card Container == -->
       <div
         id="clima-contenedor"
-        class="row g-5"></div>
+        class="row clima__contenedor"></div>
     </main>
 
     <!-- hack ========== FOOTER ========== -->

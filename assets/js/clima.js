@@ -8,15 +8,15 @@ document.addEventListener("DOMContentLoaded", () => {
       datos.ciudades.forEach(clima => {
         const clone = plantilla.content.cloneNode(true);
 
-        clone.querySelector(".clima-ciudad").textContent = clima.ciudad;
-        clone.querySelector(".clima-descripcion").textContent = clima.descripcion;
-        clone.querySelector(".clima-temperatura").textContent = clima.temperatura;
-        clone.querySelector(".clima-sensacion").textContent = clima.sensacion;
-        clone.querySelector(".clima-humedad").textContent = clima.humedad;
-        clone.querySelector(".clima-viento").textContent = clima.viento;
-        clone.querySelector(".clima-actualizado").textContent = clima.actualizado;
+        clone.querySelector(".clima__ciudad").textContent = clima.ciudad;
+        clone.querySelector(".clima__descripcion").textContent = clima.descripcion;
+        clone.querySelector(".clima__temperatura").textContent = clima.temperatura;
+        clone.querySelector(".clima__sensacion").textContent = clima.sensacion;
+        clone.querySelector(".clima__humedad").textContent = clima.humedad;
+        clone.querySelector(".clima__viento").textContent = clima.viento;
+        clone.querySelector(".clima__actualizado").textContent = clima.actualizado;
 
-        const icono = clone.querySelector(".clima-icono");
+        const icono = clone.querySelector(".clima__icono");
         icono.src = clima.icono;
         icono.alt = clima.descripcion;
 

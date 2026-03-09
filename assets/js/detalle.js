@@ -16,7 +16,7 @@ document.addEventListener('click', (e) => {
   if (!btn) return;
 
   const card = btn.closest('.card');
-  const ciudad = card.querySelector('.clima-ciudad').textContent.trim();
+  const ciudad = card.querySelector('.clima__ciudad').textContent.trim();
 
   abrirDetalle(ciudad, card);
 });
@@ -39,13 +39,13 @@ function abrirDetalle(nombreCiudad, card) {
   // Rellenar datos modal
   document.getElementById('detalle-ciudad').textContent = nombreCiudad;
   document.getElementById('detalle-temperatura').textContent =
-    card.querySelector('.clima-temperatura').textContent;
+    card.querySelector('.clima__temperatura').textContent;
   document.getElementById('detalle-sensacion').textContent =
-    card.querySelector('.clima-sensacion').textContent;
+    card.querySelector('.clima__sensacion').textContent;
   document.getElementById('detalle-humedad').textContent =
-    card.querySelector('.clima-humedad').textContent;
+    card.querySelector('.clima__humedad').textContent;
   document.getElementById('detalle-viento').textContent =
-    card.querySelector('.clima-viento').textContent;
+    card.querySelector('.clima__viento').textContent;
 
   // Limpiar fila semana
   const filaSemana = document.getElementById('detalle-semana');
