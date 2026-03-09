@@ -1,0 +1,65 @@
+.header__nav {
+  background-color: #f1f3f5;
+  padding: 8px 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+.header__brand {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #0d6efd;
+}
+.header__toggle {
+  border: none;
+}
+.header__toggle:focus {
+  box-shadow: none;
+}
+.header__menu {
+  margin: 0 auto;
+}
+.header__item {
+  margin: 0 8px;
+}
+.header__link {
+  color: #333;
+  font-weight: 500;
+}
+.header__link:hover {
+  color: #0d6efd;
+}
+.header__link--active {
+  color: #0d6efd;
+  font-weight: 600;
+}
+.header__dropdown-menu {
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  padding: 8px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.header__dropdown-item {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}
+.header__dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.header__form {
+  gap: 8px;
+}
+.header__input {
+  border-radius: 6px;
+}
+.header__button {
+  border-radius: 6px;
+}
+.header__button--search {
+  border: 1px solid #0d6efd;
+  color: #0d6efd;
+}
+.header__button--search:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */

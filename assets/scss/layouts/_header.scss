@@ -1,0 +1,83 @@
+.header {
+
+  &__nav {
+    background-color: $color-header-bg;
+    padding: $space-sm $space-md;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+
+  &__brand {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: $color-primary;
+  }
+
+  &__toggle {
+    border: none;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  &__menu {
+    margin: 0 auto;
+  }
+
+  &__item {
+    margin: 0 $space-sm;
+  }
+
+  &__link {
+    color: $color-text;
+    font-weight: 500;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+
+  &__link--active {
+    color: $color-primary;
+    font-weight: 600;
+  }
+
+  &__dropdown-menu {
+    border-radius: $radius-sm;
+    border: 1px solid #e5e7eb;
+    padding: $space-sm 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+
+  &__dropdown-item {
+    padding: $space-sm $space-md;
+    font-size: 0.9rem;
+
+    &:hover {
+      background-color: rgba(0,0,0,0.05);
+    }
+  }
+
+  &__form {
+    gap: $space-sm;
+  }
+
+  &__input {
+    border-radius: $radius-sm;
+  }
+
+  &__button {
+    border-radius: $radius-sm;
+  }
+
+  &__button--search {
+    border: 1px solid $color-primary;
+    color: $color-primary;
+
+    &:hover {
+      background-color: $color-primary;
+      color: white;
+    }
+  }
+
+}

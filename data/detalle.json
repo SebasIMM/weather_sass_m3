@@ -1,0 +1,40 @@
+{
+  "detalle": [
+    {
+      "ciudad": "Santiago",
+      "semana": [
+        { "dia": "Lunes", "max": 28, "min": 16, "sensacion": 27, "humedad": 32, "viento": 14, "icono": "./assets/img/sun.svg" },
+        { "dia": "Martes", "max": 27, "min": 15, "sensacion": 26, "humedad": 35, "viento": 12, "icono": "./assets/img/cloud-sun.svg" },
+        { "dia": "Miércoles", "max": 26, "min": 14, "sensacion": 25, "humedad": 38, "viento": 10, "icono": "./assets/img/cloud.svg" },
+        { "dia": "Jueves", "max": 25, "min": 13, "sensacion": 24, "humedad": 40, "viento": 11, "icono": "./assets/img/cloud-rain.svg" },
+        { "dia": "Viernes", "max": 27, "min": 15, "sensacion": 26, "humedad": 34, "viento": 13, "icono": "./assets/img/sun.svg" },
+        { "dia": "Sábado", "max": 29, "min": 17, "sensacion": 28, "humedad": 30, "viento": 15, "icono": "./assets/img/sun.svg" },
+        { "dia": "Domingo", "max": 30, "min": 18, "sensacion": 29, "humedad": 28, "viento": 16, "icono": "./assets/img/sun.svg" }
+      ]
+    },
+    {
+      "ciudad": "Valparaíso",
+      "semana": [
+        { "dia": "Lunes", "max": 20, "min": 14, "sensacion": 19, "humedad": 65, "viento": 22, "icono": "./assets/img/cloud.svg" },
+        { "dia": "Martes", "max": 19, "min": 13, "sensacion": 18, "humedad": 68, "viento": 24, "icono": "./assets/img/cloud.svg" },
+        { "dia": "Miércoles", "max": 21, "min": 14, "sensacion": 20, "humedad": 62, "viento": 20, "icono": "./assets/img/cloud-sun.svg" },
+        { "dia": "Jueves", "max": 20, "min": 13, "sensacion": 19, "humedad": 66, "viento": 23, "icono": "./assets/img/cloud.svg" },
+        { "dia": "Viernes", "max": 22, "min": 15, "sensacion": 21, "humedad": 60, "viento": 18, "icono": "./assets/img/cloud-sun.svg" },
+        { "dia": "Sábado", "max": 23, "min": 16, "sensacion": 22, "humedad": 58, "viento": 17, "icono": "./assets/img/sun.svg" },
+        { "dia": "Domingo", "max": 21, "min": 15, "sensacion": 20, "humedad": 63, "viento": 19, "icono": "./assets/img/cloud.svg" }
+      ]
+    },
+    {
+      "ciudad": "Concepción",
+      "semana": [
+        { "dia": "Lunes", "max": 17, "min": 12, "sensacion": 16, "humedad": 80, "viento": 16, "icono": "./assets/img/cloud-rain.svg" },
+        { "dia": "Martes", "max": 16, "min": 11, "sensacion": 15, "humedad": 82, "viento": 18, "icono": "./assets/img/cloud-rain.svg" },
+        { "dia": "Miércoles", "max": 18, "min": 12, "sensacion": 17, "humedad": 78, "viento": 15, "icono": "./assets/img/cloud.svg" },
+        { "dia": "Jueves", "max": 19, "min": 13, "sensacion": 18, "humedad": 75, "viento": 14, "icono": "./assets/img/cloud-sun.svg" },
+        { "dia": "Viernes", "max": 18, "min": 12, "sensacion": 17, "humedad": 77, "viento": 16, "icono": "./assets/img/cloud.svg" },
+        { "dia": "Sábado", "max": 20, "min": 14, "sensacion": 19, "humedad": 70, "viento": 13, "icono": "./assets/img/sun.svg" },
+        { "dia": "Domingo", "max": 21, "min": 15, "sensacion": 20, "humedad": 68, "viento": 12, "icono": "./assets/img/sun.svg" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "ciudades": [
+    {
+      "ciudad": "Santiago",
+      "descripcion": "Cielo totalmente despejado",
+      "temperatura": 27,
+      "sensacion": 26,
+      "humedad": 30,
+      "viento": 12,
+      "icono": "./assets/img/sun.svg",
+      "actualizado": "2025-12-07 15:30"
+    },
+    {
+      "ciudad": "Valparaíso",
+      "descripcion": "Nubes dispersas sobre la costa",
+      "temperatura": 19,
+      "sensacion": 18,
+      "humedad": 68,
+      "viento": 22,
+      "icono": "./assets/img/cloud.svg",
+      "actualizado": "2025-12-07 15:10"
+    },
+    {
+      "ciudad": "Concepción",
+      "descripcion": "Lloviznas intermitentes",
+      "temperatura": 16,
+      "sensacion": 15,
+      "humedad": 85,
+      "viento": 14,
+      "icono": "./assets/img/cloud-rain.svg",
+      "actualizado": "2025-12-07 14:58"
+    },
+    {
+      "ciudad": "La Serena",
+      "descripcion": "Nubes altas con periodos de sol",
+      "temperatura": 20,
+      "sensacion": 19,
+      "humedad": 55,
+      "viento": 18,
+      "icono": "./assets/img/cloud-sun.svg",
+      "actualizado": "2025-12-07 14:45"
+    },
+    {
+      "ciudad": "Puerto Montt",
+      "descripcion": "Precipitaciones constantes",
+      "temperatura": 13,
+      "sensacion": 11,
+      "humedad": 92,
+      "viento": 26,
+      "icono": "./assets/img/cloud-showers-heavy.svg",
+      "actualizado": "2025-12-07 14:20"
+    },
+    {
+      "ciudad": "Temuco",
+      "descripcion": "Visibilidad reducida por niebla",
+      "temperatura": 10,
+      "sensacion": 8,
+      "humedad": 96,
+      "viento": 6,
+      "icono": "./assets/img/fog.svg",
+      "actualizado": "2025-12-07 14:05"
+    },
+    {
+      "ciudad": "Antofagasta",
+      "descripcion": "Cielo limpio y seco",
+      "temperatura": 24,
+      "sensacion": 24,
+      "humedad": 40,
+      "viento": 20,
+      "icono": "./assets/img/sun.svg",
+      "actualizado": "2025-12-07 13:55"
+    },
+    {
+      "ciudad": "Iquique",
+      "descripcion": "Neblina costera matinal",
+      "temperatura": 22,
+      "sensacion": 21,
+      "humedad": 65,
+      "viento": 10,
+      "icono": "./assets/img/fog.svg",
+      "actualizado": "2025-12-07 13:40"
+    },
+    {
+      "ciudad": "Arica",
+      "descripcion": "Sol radiante durante toda la tarde",
+      "temperatura": 28,
+      "sensacion": 27,
+      "humedad": 45,
+      "viento": 8,
+      "icono": "./assets/img/sun.svg",
+      "actualizado": "2025-12-07 13:20"
+    },
+    {
+      "ciudad": "Punta Arenas",
+      "descripcion": "Ráfagas intensas del sur",
+      "temperatura": 7,
+      "sensacion": 3,
+      "humedad": 75,
+      "viento": 55,
+      "icono": "./assets/img/wind.svg",
+      "actualizado": "2025-12-07 13:00"
+    },
+    {
+      "ciudad": "Coyhaique",
+      "descripcion": "Caída ligera de nieve",
+      "temperatura": -1,
+      "sensacion": -5,
+      "humedad": 90,
+      "viento": 10,
+      "icono": "./assets/img/snowflake.svg",
+      "actualizado": "2025-12-07 12:50"
+    },
+    {
+      "ciudad": "Rancagua",
+      "descripcion": "Cielo mixto con sol y nubes",
+      "temperatura": 25,
+      "sensacion": 24,
+      "humedad": 48,
+      "viento": 12,
+      "icono": "./assets/img/cloud-sun.svg",
+      "actualizado": "2025-12-07 12:40"
+    },
+    {
+      "ciudad": "Talca",
+      "descripcion": "Chubascos débiles",
+      "temperatura": 17,
+      "sensacion": 16,
+      "humedad": 80,
+      "viento": 15,
+      "icono": "./assets/img/cloud-rain.svg",
+      "actualizado": "2025-12-07 12:20"
+    },
+    {
+      "ciudad": "Chillán",
+      "descripcion": "Cielo totalmente claro",
+      "temperatura": 23,
+      "sensacion": 22,
+      "humedad": 50,
+      "viento": 9,
+      "icono": "./assets/img/sun.svg",
+      "actualizado": "2025-12-07 12:10"
+    },
+    {
+      "ciudad": "Los Ángeles",
+      "descripcion": "Cobertura nubosa continua",
+      "temperatura": 18,
+      "sensacion": 17,
+      "humedad": 70,
+      "viento": 11,
+      "icono": "./assets/img/cloud.svg",
+      "actualizado": "2025-12-07 11:58"
+    },
+    {
+      "ciudad": "Osorno",
+      "descripcion": "Lluvias constantes durante el día",
+      "temperatura": 14,
+      "sensacion": 12,
+      "humedad": 93,
+      "viento": 20,
+      "icono": "./assets/img/cloud-showers-heavy.svg",
+      "actualizado": "2025-12-07 11:50"
+    },
+    {
+      "ciudad": "Valdivia",
+      "descripcion": "Cielo completamente cubierto",
+      "temperatura": 15,
+      "sensacion": 14,
+      "humedad": 88,
+      "viento": 14,
+      "icono": "./assets/img/cloud.svg",
+      "actualizado": "2025-12-07 11:40"
+    },
+    {
+      "ciudad": "Calama",
+      "descripcion": "Ambiente muy seco y despejado",
+      "temperatura": 26,
+      "sensacion": 25,
+      "humedad": 20,
+      "viento": 18,
+      "icono": "./assets/img/sun.svg",
+      "actualizado": "2025-12-07 11:20"
+    },
+    {
+      "ciudad": "Copiapó",
+      "descripcion": "Sol intenso y aire seco",
+      "temperatura": 29,
+      "sensacion": 28,
+      "humedad": 22,
+      "viento": 10,
+      "icono": "./assets/img/sun.svg",
+      "actualizado": "2025-12-07 11:10"
+    },
+    {
+      "ciudad": "Quillota",
+      "descripcion": "Periodos breves de sol",
+      "temperatura": 21,
+      "sensacion": 20,
+      "humedad": 58,
+      "viento": 12,
+      "icono": "./assets/img/cloud-sun.svg",
+      "actualizado": "2025-12-07 11:05"
+    }
+  ]
+}
