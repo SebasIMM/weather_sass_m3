@@ -1,94 +1,12 @@
+@use '../utils/variables' as var;
+
+@use '../components/buttons' as buttons;
+@use '../components/cards' as cards;
+
 .clima {
-  padding: $space-lg;
+  padding: var.$space-xl;
 
   &__col {
-    margin-bottom: $space-lg;
-  }
-
-  &__card {
-    background-color: $color-card-bg;
-    border: 1px solid $color-card-border;
-    border-radius: $radius-sm;
-    box-shadow: 0 0.25rem 0.5rem $color-card-shadow;
-    transition: transform 0.3s;
-
-    &:hover {
-      transform: translateY(-8px);
-    }
-  }
-
-  &__ciudad {
-    font-weight: 600;
-    font-size: 1.2rem;
-    color: $color-text;
-    background-color: $color-card_header;
-    border-bottom: 1px solid $color-card-border;
-    padding: 0.75rem 0;
-  }
-
-  &__contenido {
-    padding: $space-sm $space-md;
-  }
-
-  &__icono-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: $space-sm;
-  }
-
-  &__icono {
-    width: 60px;
-    height: 60px;
-  }
-
-  &__body {
-    padding: $space-sm 0;
-  }
-
-  &__descripcion {
-    font-size: 0.95rem;
-    font-weight: 500;
-    color: $color-text;
-  }
-
-  &__lista {
-    margin-top: $space-sm;
-
-    .list-group-item {
-      font-size: 0.9rem;
-      padding: $space-sm $space-md;
-
-      .clima__badge {
-        font-weight: 500;
-
-        &--temp {
-          background-color: $color-temp;
-          color: $color-text;
-        }
-        &--sensacion {
-          background-color: $color-sensacion;
-          color: $color-text;
-        }
-        &--humedad {
-          background-color: $color-humedad;
-          color: $color-text;
-        }
-        &--viento {
-          background-color: $color-viento;
-          color: $color-text;
-        }
-      }
-    }
-  }
-
-  &__boton {
-    width: 50%;
-    margin: 0.5rem auto;
-  }
-
-  &__footer {
-    font-size: 0.8rem;
-    color: $color-text;
+    margin-bottom: var.$space-lg;
   }
 }

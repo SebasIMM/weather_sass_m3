@@ -1,6 +1,8 @@
+@use '../utils/variables' as var;
+
 .footer {
-  background-color: $color-footer-bg;
-  color: $color-footer-text;
+  background-color: var.$color-footer-bg;
+  color: var.$color-footer-text;
 
   &__container {
     padding-top: 2rem;
@@ -40,7 +42,7 @@
     transition: color 0.3s;
 
     &:hover {
-      color: $color-footer-link-hover;
+      color: var.$color-footer-link-hover;
     }
   }
 
@@ -49,7 +51,7 @@
 
     &:hover {
       transform: scale(1.2);
-      color: $color-footer-link-hover;
+      color: var.$color-footer-link-hover;
     }
   }
 

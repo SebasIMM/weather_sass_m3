@@ -1,0 +1,7 @@
+@mixin hover-effect($property, $value) {
+  transition: $property 0.3s;
+
+  &:hover {
+    #{$property}: $value;
+  }
+}

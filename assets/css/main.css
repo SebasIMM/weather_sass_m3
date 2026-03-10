@@ -58,24 +58,28 @@
   color: #0d6efd;
 }
 .header__button--search:hover {
+  transition: background-color 0.3s;
+}
+.header__button--search:hover:hover {
   background-color: #0d6efd;
-  color: white;
 }
 
-.clima {
-  padding: 32px;
+.clima__boton {
+  width: 50%;
+  margin: 0.5rem auto;
 }
-.clima__col {
-  margin-bottom: 32px;
-}
+
 .clima__card {
   background-color: #ffffff;
   border: 1px solid #cfd4da;
   border-radius: 6px;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
+  max-width: 285px;
 }
 .clima__card:hover {
+  transition: transform 0.3s;
+}
+.clima__card:hover:hover {
   transform: translateY(-8px);
 }
 .clima__ciudad {
@@ -133,13 +137,16 @@
   background-color: #9e9e9e;
   color: #333333;
 }
-.clima__boton {
-  width: 50%;
-  margin: 0.5rem auto;
-}
 .clima__footer {
   font-size: 0.8rem;
   color: #333333;
+}
+
+.clima {
+  padding: 64px;
+}
+.clima__col {
+  margin-bottom: 32px;
 }
 
 .footer {

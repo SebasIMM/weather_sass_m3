@@ -1,15 +1,18 @@
+@use '../utils/variables' as var;
+@use '../utils/mixins' as mixins;
+
 .header {
 
   &__nav {
-    background-color: $color-header-bg;
-    padding: $space-sm $space-md;
+    background-color: var.$color-header-bg;
+    padding: var.$space-sm var.$space-md;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   }
 
   &__brand {
     font-weight: 600;
     font-size: 1.4rem;
-    color: $color-primary;
+    color: var.$color-primary;
   }
 
   &__toggle {
@@ -25,32 +28,32 @@
   }
 
   &__item {
-    margin: 0 $space-sm;
+    margin: 0 var.$space-sm;
   }
 
   &__link {
-    color: $color-text;
+    color: var.$color-text;
     font-weight: 500;
 
     &:hover {
-      color: $color-primary;
+      color: var.$color-primary;
     }
   }
 
   &__link--active {
-    color: $color-primary;
+    color: var.$color-primary;
     font-weight: 600;
   }
 
   &__dropdown-menu {
-    border-radius: $radius-sm;
+    border-radius: var.$radius-sm;
     border: 1px solid #e5e7eb;
-    padding: $space-sm 0;
+    padding: var.$space-sm 0;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   }
 
   &__dropdown-item {
-    padding: $space-sm $space-md;
+    padding: var.$space-sm var.$space-md;
     font-size: 0.9rem;
 
     &:hover {
@@ -59,24 +62,23 @@
   }
 
   &__form {
-    gap: $space-sm;
+    gap: var.$space-sm;
   }
 
   &__input {
-    border-radius: $radius-sm;
+    border-radius: var.$radius-sm;
   }
 
   &__button {
-    border-radius: $radius-sm;
+    border-radius: var.$radius-sm;
   }
 
   &__button--search {
-    border: 1px solid $color-primary;
-    color: $color-primary;
+    border: 1px solid var.$color-primary;
+    color: var.$color-primary;
 
     &:hover {
-      background-color: $color-primary;
-      color: white;
+      @include mixins.hover-effect(background-color, var.$color-primary);
     }
   }
 
