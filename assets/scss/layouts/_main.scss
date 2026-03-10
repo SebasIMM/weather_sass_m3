@@ -2,6 +2,7 @@
 
 @use '../components/buttons' as buttons;
 @use '../components/cards' as cards;
+@use '../components/modal' as modal;
 
 .clima {
   padding: var.$space-xl;

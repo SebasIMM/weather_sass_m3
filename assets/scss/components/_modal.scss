@@ -1,0 +1,35 @@
+@use '../utils/variables' as var;
+
+.clima-modal {
+  &__content {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+  }
+
+  &__header {
+    background-color: var.$color-card-bg;
+    border-bottom: 1px solid var.$color-card-border;
+    .clima-modal__title {
+      font-weight: 600;
+    }
+    .clima-modal__subinfo {
+      font-size: 0.875rem;
+    }
+  }
+
+  &__body {
+    padding: 1.5rem;
+  }
+
+  &__table {
+    th, td {
+      vertical-align: middle;
+    }
+  }
+
+  &__footer {
+    button {
+      min-width: 120px;
+    }
+  }
+}

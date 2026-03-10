@@ -142,6 +142,30 @@
   color: #333333;
 }
 
+.clima-modal__content {
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.clima-modal__header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #cfd4da;
+}
+.clima-modal__header .clima-modal__title {
+  font-weight: 600;
+}
+.clima-modal__header .clima-modal__subinfo {
+  font-size: 0.875rem;
+}
+.clima-modal__body {
+  padding: 1.5rem;
+}
+.clima-modal__table th, .clima-modal__table td {
+  vertical-align: middle;
+}
+.clima-modal__footer button {
+  min-width: 120px;
+}
+
 .clima {
   padding: 64px;
 }

@@ -214,86 +214,103 @@
 
     <!-- hack ========== FOOTER ========== -->
     <footer class="footer bg-dark text-light">
-  <div class="container footer__container">
-    <div class="row">
+      <div class="container footer__container">
+        <div class="row">
+          <!-- Brand / About -->
+          <div class="col-md-4 footer__brand">
+            <h5 class="footer__title">
+              <img
+                src="./assets/img/cloud-sun.svg"
+                alt="Clima App Logo"
+                class="footer__logo me-2"
+                width="24"
+                height="24" />
+              Clima App
+            </h5>
+            <p class="footer__description text-secondary mb-0">
+              Información climática actualizada de distintas ciudades, presentada de forma
+              clara y sencilla.
+            </p>
+          </div>
 
-      <!-- Brand / About -->
-      <div class="col-md-4 footer__brand">
-        <h5 class="footer__title">
-          <img src="./assets/img/cloud-sun.svg" alt="Clima App Logo" class="footer__logo me-2" width="24" height="24" />
-          Clima App
-        </h5>
-        <p class="footer__description text-secondary mb-0">
-          Información climática actualizada de distintas ciudades, presentada de forma clara y sencilla.
-        </p>
-      </div>
+          <!-- Links -->
+          <div class="col-md-4 mb-3 footer__links">
+            <h6 class="footer__subtitle text-uppercase mb-3">Enlaces</h6>
+            <ul class="footer__list list-unstyled">
+              <li class="footer__item">
+                <a
+                  href="#"
+                  class="footer__link text-secondary text-decoration-none">
+                  <i class="fa-solid fa-house me-2"></i>Inicio
+                </a>
+              </li>
+              <li class="footer__item">
+                <a
+                  href="#"
+                  class="footer__link text-secondary text-decoration-none">
+                  <i class="fa-solid fa-star me-2"></i>Favoritos
+                </a>
+              </li>
+              <li class="footer__item">
+                <a
+                  href="#"
+                  class="footer__link text-secondary text-decoration-none">
+                  <i class="fa-solid fa-circle-info me-2"></i>Acerca de
+                </a>
+              </li>
+            </ul>
+          </div>
 
-      <!-- Links -->
-      <div class="col-md-4 mb-3 footer__links">
-        <h6 class="footer__subtitle text-uppercase mb-3">Enlaces</h6>
-        <ul class="footer__list list-unstyled">
-          <li class="footer__item">
-            <a href="#" class="footer__link text-secondary text-decoration-none">
-              <i class="fa-solid fa-house me-2"></i>Inicio
-            </a>
-          </li>
-          <li class="footer__item">
-            <a href="#" class="footer__link text-secondary text-decoration-none">
-              <i class="fa-solid fa-star me-2"></i>Favoritos
-            </a>
-          </li>
-          <li class="footer__item">
-            <a href="#" class="footer__link text-secondary text-decoration-none">
-              <i class="fa-solid fa-circle-info me-2"></i>Acerca de
-            </a>
-          </li>
-        </ul>
-      </div>
+          <!-- Social -->
+          <div class="col-md-4 mb-3 footer__social">
+            <h6 class="footer__subtitle text-uppercase mb-3">Síguenos</h6>
+            <div class="footer__icons d-flex gap-3">
+              <a
+                href="#"
+                class="footer__icon text-light fs-5">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="#"
+                class="footer__icon text-light fs-5">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a
+                href="#"
+                class="footer__icon text-light fs-5">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
 
-      <!-- Social -->
-      <div class="col-md-4 mb-3 footer__social">
-        <h6 class="footer__subtitle text-uppercase mb-3">Síguenos</h6>
-        <div class="footer__icons d-flex gap-3">
-          <a href="#" class="footer__icon text-light fs-5">
-            <i class="fa-brands fa-github"></i>
-          </a>
-          <a href="#" class="footer__icon text-light fs-5">
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-          <a href="#" class="footer__icon text-light fs-5">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
+        <hr class="footer__divider border-secondary" />
+
+        <!-- Copyright -->
+        <div class="footer__copyright text-center">
+          <p class="text-secondary text-sm-center">
+            © 2025 Clima App — Proyecto educativo
+          </p>
+          <small class="text-secondary">El futuro es hoy ¿oíste viejo? - Dewey</small>
         </div>
       </div>
-
-    </div>
-
-    <hr class="footer__divider border-secondary" />
-
-    <!-- Copyright -->
-    <div class="footer__copyright text-center">
-      <p class="text-secondary text-sm-center">
-        © 2025 Clima App — Proyecto educativo
-      </p>
-      <small class="text-secondary">El futuro es hoy ¿oíste viejo? - Dewey</small>
-    </div>
-  </div>
-</footer>
+    </footer>
 
     <!-- idea == Modal == -->
     <div
-      class="modal fade"
+      class="modal fade clima-modal"
       id="modalDetalleClima"
       tabindex="-1">
-      <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content">
+      <div
+        class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content clima-modal__content">
           <!-- Modal Header -->
-          <div class="modal-header">
-            <div>
-              <h5 class="modal-title mb-1">
+          <div class="modal-header clima-modal__header">
+            <div class="clima-modal__header-info">
+              <h5 class="modal-title clima-modal__title mb-1">
                 Pronóstico semanal – <span id="detalle-ciudad"></span>
               </h5>
-              <small class="text-muted">
+              <small class="clima-modal__subinfo text-muted">
                 Temp: <span id="detalle-temperatura"></span>°C · Sensación:
                 <span id="detalle-sensacion"></span>°C · Humedad:
                 <span id="detalle-humedad"></span>% · Viento:
@@ -303,15 +320,15 @@
 
             <button
               type="button"
-              class="btn-close"
+              class="btn-close clima-modal__close"
               data-bs-dismiss="modal"
               aria-label="Cerrar"></button>
           </div>
 
           <!-- Body Tabla de la semana -->
-          <div class="modal-body">
+          <div class="modal-body clima-modal__body">
             <div class="table-responsive">
-              <table class="table text-center align-middle mb-0">
+              <table class="table text-center align-middle mb-0 clima-modal__table">
                 <thead>
                   <tr class="border-bottom border-2">
                     <th>Lun</th>
@@ -324,7 +341,9 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr id="detalle-semana">
+                  <tr
+                    id="detalle-semana"
+                    class="clima-modal__week">
                     <!-- JS inyecta las 7 columnas -->
                   </tr>
                 </tbody>
@@ -333,10 +352,10 @@
           </div>
 
           <!-- Modal Footer -->
-          <div class="modal-footer justify-content-center">
+          <div class="modal-footer clima-modal__footer justify-content-center">
             <button
               type="button"
-              class="btn btn-outline-secondary px-5"
+              class="btn btn-outline-secondary px-5 clima-modal__btn-close"
               data-bs-dismiss="modal">
               Cerrar
             </button>
